@@ -170,16 +170,32 @@
         height: 500px;
     }
 
+    .textpage h1 {
+        font-size: 32px;
+        line-height: 42px;
+        margin-bottom: 20px;
+    }
 
+    .textpage h5 {
+        margin-bottom: 10px;
+    }
 
+    .textpage__block {
+        margin-bottom: 40px;
+    }
 
+    .textpage h5 {
+        font-size: 20px;
+    }
 
+    .newblock__descr a {
+        font-size: 18px;
+        height: 75px;
+    }
 
-
-
-
-
-
+    .newblock__descr {
+        padding: 25px;
+    }
 
 
 
@@ -515,7 +531,9 @@
         width: 50%;
     }
 
-
+    .textpage {
+        padding-top: 50px;
+    }
 
 
 
@@ -711,9 +729,14 @@
         padding-bottom: 50px;
     }
 
+    .textpage__block ul li {
+        padding-left: 20px;
+        margin-bottom: 5px;
+    }
 
-
-
+    .textpage__block ul {
+        padding: 0 0 0 30px;
+    }
 
 
 
@@ -871,6 +894,32 @@
     .product-chain.goals .chainblock__pic {
         padding: 50px 0;
     }
+
+    .textpage h1 {
+        font-size: 24px;
+        line-height: 34px;
+        margin-bottom: 10px;
+    }
+
+    .textpage {
+        padding-top: 30px;
+    }
+
+    .textpage__block {
+        margin-bottom: 30px;
+    }
+
+    .textpage h5 {
+        font-size: 18px;
+    }
+
+    .closemenu {
+        top: 15px;
+        right: 15px;
+    }
+
+
+
 
 
 
