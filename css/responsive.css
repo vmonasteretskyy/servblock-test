@@ -197,12 +197,21 @@
         padding: 25px;
     }
 
+    .news {
+        padding-top: 60px;
+    }
 
+    .newcontent {
+        padding-top: 60px;
+    }
 
+    .newcontent__topsect {
+        padding-bottom: 20px;
+    }
 
-
-
-
+    .newcontent__bottsect {
+        padding-top: 25px;
+    }
 
 
 
@@ -348,8 +357,25 @@
         height: 370px;
     }
 
+    .newblock__pic {
+        height: 170px;
+    }
 
+    .newinfo h1 {
+        font-size: 30px;
+    }
 
+    .newinfo {
+        padding: 30px 0;
+    }
+
+    .newcontent__socialwrap {
+        padding-top: 30px;
+    }
+
+    .newinfo img {
+        margin: 0 0 25px 0;
+    }
 
 
 
@@ -535,11 +561,30 @@
         padding-top: 50px;
     }
 
+    .newblock__descr {
+        padding: 15px 20px;
+    }
 
+    .newblock__descr a {
+        font-size: 16px;
+        height: 70px;
+    }
 
+    .newcontent {
+        padding-top: 40px;
+    }
 
+    .newinfo h1 {
+        font-size: 28px;
+    }
 
+    .newinfo ul li {
+        margin-bottom: 10px;
+    }
 
+    .newcontent__socialwrap {
+        padding-top: 37px;
+    }
 
 
 
@@ -738,7 +783,53 @@
         padding: 0 0 0 30px;
     }
 
+    .newcontent__socialwrap ul li a {
+        height: 40px;
+        width: 40px;
+        border: none;
+        border-right: 1px solid #E0E0E0;
+    }
 
+    .newcontent__socialwrap ul li:last-child a {
+        border-right: none;
+    }
+
+    .newcontent__socialwrap {
+        width: 65px;
+    }
+
+    .newinfo h1 {
+        font-size: 22px;
+        margin-bottom: 20px;
+    }
+
+    .newinfo ul {
+        padding: 0;
+        display: inline-block;
+    }
+
+    .newcontent__socialwrap {
+        width: 100%;
+    }
+
+    .newcontent__socialwrap ul {
+        width: auto;
+        position: relative;
+        display: inline-block;
+        top: 0;
+    }
+
+    .newcontent__socialwrap ul li {
+        display: inline-block;
+    }
+
+    .newcontent__socialwrap {
+        padding-top: 15px;
+    }
+
+    .newinfo {
+        padding-top: 20px;
+    }
 
 
 }
@@ -918,9 +1009,13 @@
         right: 15px;
     }
 
+    .news {
+        padding-top: 50px;
+    }
 
-
-
+    .newblock__descrbott span {
+        font-size: 12px;
+    }
 
 
 

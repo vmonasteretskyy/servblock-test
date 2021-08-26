@@ -28,7 +28,10 @@ $(document).ready(function () {
         });
     }
 
-
+    // close cookie
+    $('.cookie__close,.cookie__apply').click(function () {
+        $('.cookie').hide();
+    });
 
 
 
