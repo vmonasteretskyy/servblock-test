@@ -917,22 +917,30 @@ body.overflowhidden {
 .benefits__circle {
     background: #F2F2F2;
     opacity: 0.5;
-    width: 534px;
+    /*width: 534px;
     height: 534px;
+    */
+    width: 200px;
+    height: 200px;
     position: absolute;
     left: 50%;
-    top: 50%;
-    transform: translate(-50%, -50%);
+    /* top: 50%; */
+    /* transform: translate(-50%, -50%);
     -webkit-transform: translate(-50%, -50%);
     -moz-transform: translate(-50%, -50%);
     -ms-transform: translate(-50%, -50%);
-    -o-transform: translate(-50%, -50%);
+    -o-transform: translate(-50%, -50%); */
     border-radius: 50%;
     -webkit-border-radius: 50%;
     -moz-border-radius: 50%;
     -ms-border-radius: 50%;
     -o-border-radius: 50%;
     z-index: 1;
+    transition: .5s;
+    -webkit-transition: .5s;
+    -moz-transition: .5s;
+    -ms-transition: .5s;
+    -o-transition: .5s;
 }
 
 .benefits .container {
@@ -1866,7 +1874,9 @@ body.overflowhidden {
     color: #000;
 }
 
-
+.benefits {
+    overflow: hidden;
+}
 
 
 

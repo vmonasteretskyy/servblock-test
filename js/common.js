@@ -33,14 +33,46 @@ $(document).ready(function () {
         $('.cookie').hide();
     });
 
+    // mian page - circle anim
+    // benefits__circle
+
+    // document.addEventListener('DOMContentLoaded', updateDivFontSize);
+    // window.addEventListener('scroll', updateDivFontSize);
+
+    // function updateDivFontSize() {
+    //     var div = document.querySelector('.benefits__circle'),
+    //         divScrollCoef = getScrollCoef(div);
+
+    //     div.style.width = divScrollCoef * 50 + 1 + 'vw';
+    //     div.style.height = divScrollCoef * 50 + 1 + 'vw';
+    // }
+
+    // function getScrollCoef(element) {
+    //     var elementRect = element.getBoundingClientRect(),
+    //         elementOffsetTop = elementRect.top,
+    //         elementOffsetBottom = elementRect.bottom,
+    //         windowOffsetBottom = document.documentElement.clientHeight,
+    //         coef;
+
+    //     if (windowOffsetBottom < elementOffsetTop) {
+    //         coef = 0;
+    //     } else if (windowOffsetBottom > elementOffsetBottom) {
+    //         coef = 1;
+    //     } else {
+    //         coef = (windowOffsetBottom - elementOffsetTop) / (elementOffsetBottom - elementOffsetTop);
+    //     }
+
+    //     return coef;
+    // }
 
 
 
 
 
-
-
-
-
+    AOS.init({
+        easing: 'ease-in-out-sine',
+        duration: 800,
+        delay: 100,
+    });
 
 });
