@@ -73,7 +73,7 @@ $(document).ready(function () {
         easing: 'ease-in-out-sine',
         duration: 800,
         delay: 100,
-        disable: 'mobile'
+        // disable: 'mobile'
     });
 
 
