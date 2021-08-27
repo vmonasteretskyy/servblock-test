@@ -576,6 +576,10 @@
         font-size: 15px;
     }
 
+    .productsect .testbox>div {
+        height: 50%;
+    }
+
 
 }
 

@@ -1904,6 +1904,9 @@ section {
     overflow: hidden;
 }
 
+section.service {
+    overflow: initial;
+}
 
 
 
