@@ -213,17 +213,6 @@
         padding-top: 25px;
     }
 
-
-
-
-
-
-
-
-
-
-
-
     .chainblock__text p {
         font-size: 16px;
     }
@@ -237,23 +226,15 @@
         font-size: 32px;
     }
 
-
-
     .productsect__text p,
     .footer__descr p {
         line-height: 26px;
     }
 
-
-
-
     .service,
     .ourstory {
         padding: 60px 0;
     }
-
-
-
 
     .service__descr p,
     .product-chain h6,
@@ -284,7 +265,6 @@
 }
 
 @media(max-width:1199.8px) {
-
 
     .header__menu ul li {
         margin-right: 30px;
@@ -377,13 +357,6 @@
         margin: 0 0 25px 0;
     }
 
-
-
-
-
-
-
-
     h1,
     h2 {
         font-size: 34px;
@@ -393,10 +366,6 @@
     .header__menu ul li a {
         font-size: 16px;
     }
-
-
-
-
 
     .ourpdoducts h6,
     .product-chain h6,
@@ -408,7 +377,6 @@
         margin-bottom: 50px;
     }
 
-
     .service {
         padding: 50px 0;
     }
@@ -419,7 +387,6 @@
     .header__menu ul li {
         margin-right: 20px;
     }
-
 
     .mainsect {
         height: 380px;
@@ -586,11 +553,6 @@
         padding-top: 37px;
     }
 
-
-
-
-
-
     h1,
     h2 {
         font-size: 32px;
@@ -602,9 +564,6 @@
         line-height: 38px;
     }
 
-
-
-
     .benefit-text {
         margin-bottom: 30px;
     }
@@ -613,7 +572,7 @@
 
 @media(max-width:767.8px) {
     .menuburger {
-        display: inline-block;
+        display: inline-block !important;
         width: 24px;
         height: 24px;
         position: absolute;
@@ -716,9 +675,8 @@
         width: 24px;
         height: 24px;
         border: none;
-        display: flex;
+        display: flex !important;
     }
-
 
     .closemenu img {
         width: 100%;
@@ -1021,6 +979,7 @@
 
 
 
+
     h1,
     h2,
     .mapsection__text .title,
@@ -1064,8 +1023,6 @@
 
 
 }
-
-
 
 
 
